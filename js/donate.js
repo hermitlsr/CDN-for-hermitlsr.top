@@ -11,8 +11,8 @@ var drinks_qrcodes = $('#drinks-qrcodes');
 var drinks_qrcode = $('#drinks-qrcode');
 var isMobile = /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent);
 
-var GithubLink  =   "https://github.com/kelecn/sponsor-page/";
-var PayPalLink  =   "https://www.paypal.me/kelecn";
+var GithubLink  =   "https://github.com/Kaiyuan/donate-page/";
+var PayPalLink  =   "https://www.paypal.me/KaiyuanXie"; //我不用这个所以直接没改。
 $('#paypal-donate>a').href = PayPalLink;
 $('#github-box>a').href = GithubLink;
 var qrcodes = {
